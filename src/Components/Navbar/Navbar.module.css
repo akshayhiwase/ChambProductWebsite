@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: 0 15px 19px -19px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 10%;
+  border-right: 1px solid #ccc;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 90px;
+}
+.searchBar {
+  width: 70%;
+  border-right: 1px solid #ccc;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+.searchBar input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  padding-left: 10px;
+  font-size: 15px;
+  outline: none;
+  color: #474747;
+  font-weight: 400;
+}
+.searchBar img {
+  width: 20px;
+}
+.linkSection {
+  width: 20%;
+  height: 40px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.linkSection a {
+  color: #636363;
+  text-decoration: none;
+  font-weight: 350;
+  font-size: 16px;
+}
+.linkSection a:hover {
+  color: #1d99ff;
+}
+.userSection {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.signUpBtn {
+  width: 45%;
+}
+.signUpBtn button {
+  width: 100%;
+  height: 40px;
+  background-color: #09294c;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: 0;
+}
+.loginBtn {
+  width: 45%;
+}
+.loginBtn button {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: #636363;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+}
+.loginBtn button:hover {
+  color: #1d99ff;
+}
+.signUpBtn button:hover {
+  background-color: #1d99ff;
+}
