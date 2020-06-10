@@ -1,0 +1,94 @@
+.mainContainer {
+  background-color: #09284b;
+  background-image: url("../../Utils/Images/bg_main.png");
+  padding-bottom: 180px;
+  background-position: center center;
+  height: 600px;
+}
+.firstSection {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.headingSection {
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 92px 0px 75px 0px;
+}
+.headingSection h1 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 22px;
+}
+.headingSection h4 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 22px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchBox {
+  width: 40%;
+}
+.searchBox input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  min-height: 55px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  outline: none;
+}
+.dropdownSection {
+  width: 20%;
+}
+.dropdownSection {
+}
+.categorySelectMenu {
+  background-color: #09294c;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+
+  width: 100%;
+  min-height: 55px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  outline: none;
+}
+.searchBtn {
+  width: 20%;
+}
+.searchBtn button {
+  background: #1d99ff;
+  color: #ffffff;
+  min-height: 55px;
+  width: 100%;
+  line-height: 38px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.searchBtn button:hover {
+  color: #fff;
+  background-color: #007dea;
+  border-color: #0077e0;
+}

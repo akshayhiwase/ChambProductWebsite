@@ -1,0 +1,174 @@
+.footer {
+  background-image: url("../../Utils/Images/footer_bg.png");
+  padding: 55px 0px 0px 0px;
+  background-size: cover;
+  background-position: center center;
+  /* position: fixed;
+  bottom: 0;
+  width: 100%; */
+}
+
+.topContent {
+  padding-bottom: 55px;
+  border-bottom: 1px solid #12345b;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.topHeading {
+  width: 14%;
+}
+.topHeading h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  line-height: 26px;
+}
+.inputContainer {
+  width: 45%;
+}
+.questionInfo {
+  width: 30%;
+}
+.inputSection {
+  position: relative;
+  margin-right: 15px;
+}
+
+.inputSection input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  color: #646464;
+  min-height: 51px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  padding-right: 140px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.inputSection button {
+  border: none;
+  background: #1d99ff;
+  color: #fff;
+  padding: 11px 35px 11px;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  border-radius: 50px;
+  outline: none;
+}
+.questionInfo h4 {
+  color: #fff;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 4px 0px;
+}
+.inputSection button:hover {
+  background-color: #007dea;
+  cursor: pointer;
+}
+
+.questionInfo p {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  margin: 0px;
+  padding-top: 3px;
+}
+.infoElements {
+  text-align: center;
+}
+
+.bottomContainer {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  display: flex;
+}
+.bottomSection {
+  width: 50%;
+  display: flex;
+}
+.firstBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstBox h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 0 0 10px;
+  text-transform: uppercase;
+  border-left: solid #007dea 4px;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.firstBox ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.firstBox ul li {
+  padding-bottom: 10px;
+}
+
+.firstBox ul li a {
+  text-decoration: none;
+  color: #7b9bbf;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.firstBox ul li a:hover {
+  color: #fff;
+}
+.lastBoxSection {
+  width: 50%;
+}
+.lastBox h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 0 0 0 10px;
+  border-left: solid #007dea 4px;
+}
+
+.lastBox ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.lastBox ul li {
+  padding-bottom: 10px;
+}
+
+.lastBox ul li a {
+  text-decoration: none;
+  color: #7b9bbf;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.lastBox ul li a:hover {
+  color: #fff;
+}

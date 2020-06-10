@@ -6,6 +6,7 @@ import Homepage from "./Components/Homepage/Homepage";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import Pricing from "./Components/Pricing/Pricing";
 import ProductPage from "./Components/ProductPage/ProductPage";
+import Footer from "./Components/Footer/Footer";
 
 class App extends React.Component {
   state = {};
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route path={"/pricing"} component={Pricing} />
             <Route path={"/productdetails"} component={ProductPage} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
