@@ -3,7 +3,6 @@
   background-image: url("../../Utils/Images/bg_main.png");
   padding-bottom: 180px;
   background-position: center center;
-  height: 600px;
 }
 .firstSection {
   padding-right: 15px;
@@ -91,4 +90,105 @@
   color: #fff;
   background-color: #007dea;
   border-color: #0077e0;
+}
+
+.productContainer {
+  width: 100%;
+}
+.landingSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.landingCards {
+  width: 21%;
+  background: #051d36;
+  text-align: center;
+  padding-bottom: 30px;
+  min-height: 280px;
+  margin-bottom: 30px;
+  position: relative;
+  border-bottom: solid #007dea 3px;
+  transition: ease all 0.5s;
+}
+.landingCards:hover {
+  background-color: #007dea;
+  transition: ease all 0.5s;
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+.landingCards img {
+  width: 100%;
+}
+.landingCards h3 {
+  color: #fff;
+}
+
+.cardSection {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4f9fd;
+}
+.cards {
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  position: relative;
+  bottom: 30%;
+  padding: 35px 40px;
+  background: #fff;
+}
+.cards h3 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+}
+.cards p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #607086;
+  line-height: 1.5;
+}
+
+.thirdSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4f9fd;
+  height: 450px;
+}
+.leftSection {
+  width: 50%;
+  padding: 33px 45px;
+  border-right: 1px solid #ccc;
+}
+.rightSection {
+  width: 50%;
+  padding-left: 50px;
+  padding: 33px 45px;
+  margin-bottom: 20px;
+}
+.infoSection h3 {
+  font-size: 26px;
+  color: #263238;
+  padding-bottom: 30px;
+  line-height: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.infoSection p {
+  font-size: 16px;
+  color: #455a65;
+  margin: 0px;
+  padding-bottom: 45px;
+  line-height: 30px;
 }
